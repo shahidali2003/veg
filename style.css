@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sumo{
+    width: 100%;
+    height:100vh;
+   background-image: url(../images/Food1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sumo .content{
+    color: white;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 80px;
+    top: 200px;
+}
+.content h1{
+    line-height: 2em;
+    color: rgb(153, 193, 206);
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.content p{
+    color: rgb(153, 193, 206);
+    text-align: justify;
+}
+.sumo .btn{
+    position: relative;
+    top: 450px;
+    left: 80px;
+}
+
+
+.zombi{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/food9.jpg);
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f8f9f5f5;
+
+    
+
+}
+.zombi2{
+    width: 100%;
+    height: auto;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    
+}
+ 
+ .zombi .shayam{
+    width: 400px;
+    height:200px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.super img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  
+}
+@media only screen and (max-width: 600px) {
+    .zombi2 {
+      flex-direction: column;
+      gap: 10px;
+    }
+  } 
+
+
+  .farhat{
+    width: 100%;
+    height: 90vh;
+    background: url(../images/food2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+  }
+  .arsh img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 80px;
+    padding-bottom: 20px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    
+  }
+.arsh h3{
+    margin-left: 120px;
+   width: fit-content;
+   background-color: rgb(27, 32, 28);
+   color: white;
+   padding: 10px;
+   
+}
+.arsh h3:hover{
+    transform: scale(0.5);
+    border-radius: 20px;
+    color: aqua;
+    transition: 2s ease-out 0.5ms;
+}
+.sana{
+    width: 500px;
+    height: 300px;
+    text-align: justify;
+    position:absolute;
+    right: 20px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    margin-right: 80px;
+    padding: 30px;
+}
+.arman{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/food7.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.raja{
+    width: 450px;
+    height: 225px;
+    background-color: rgb(193, 147, 147);
+   text-align: center;
+   padding: 10px;
+   border-radius: 30px 0 30px 0;
+   position: relative;
+   top: 20px;
+   align-content: center;
+}
+.raju{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(29, 31, 29, 0.763);
+    border-radius: 50%;
+}
+.suman{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+.arman .raja{
+    justify-content: center;
+    position: relative;
+    left: 35%;  
+}
+.raju h2{
+    position: relative;
+    top: 35%;
+    left: 18%;
+    color: white; 
+}
+.suman:hover{
+    color: red;
+    transition: 3s ease-in 2ms;
+    transform: scale(0.5);
+}
+.nawab{
+    width: 100%;
+    height: 95vh;
+    background-image: url(../images/blank.jpg);
+    background-repeat: repeat;
+    /* display: flex; */
+    justify-content: center;
+   padding-top: 40px;
+}
+.bhola img{
+    width: 200px;
+    height: 200px;
+    /* background-size: top; */
+    background-position:center top;
+    border-radius: 50%;
+}
+.nawab .bhola{
+    display: flex;
+    justify-content: center;
+}
+.bhola p {
+    color: white;
+    width: 500px;
+    height: 250px;
+}
+.jatul{
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    color: white;
+    text-align: justify;
+    background-color: rgba(61, 154, 154, 0.527);
+    padding: 20px;
+    border-radius: 20px 0 20px 0;
+    margin-top: 40px;
+}
+.bhola img:hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(135, 195, 214, 0.728);
+    position: relative;
+    transform: scale(1.2);
+    transition: 2s ease-in-out 0.5ms;
+    
+}
+
+ 
+  .ram{
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(0, 0, 0, 0.724);
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-left:20px;
+
+  }
+  .title{
+    width: 400px;
+    height: 250px;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    line-height: 1rem;
+  }
+  .rajan{
+    gap: 10px;
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    padding: 20px;
+    line-height: 2rem;
+  }
+  .ikbal{
+    width: 60%;
+    height:auto;
+  }
+  .ram{
+    color: rgb(52, 4, 4);
+  }
+
+
+
+
+
